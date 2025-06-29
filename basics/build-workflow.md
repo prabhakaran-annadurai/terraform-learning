@@ -9,7 +9,12 @@ Set Environment variables for login
             --> terraform apply
                 --> terraform state list
 
+
+
+
 ![](../screenshots/screenshot-1.png)
+
+
 
 
 ![](../screenshots/screenshot-2.png)
