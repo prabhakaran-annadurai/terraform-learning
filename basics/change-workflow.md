@@ -2,9 +2,10 @@
 
 ### 1. Adding a new resource
 
-Code to .tf -> terraform apply
+- step1 : Adding config code in main.tf file
+- step2 : run "terraform apply"
 
-Created a new vnet in an existing resource group 
+Eg. I created a new vnet in an existing resource group 
 
 
 ![](../screenshots/screenshot-3.png)
@@ -12,20 +13,19 @@ Created a new vnet in an existing resource group
 
 ### 2. Changing an existing resource
 
-Code to .tf -> terraform apply
 
 Terraform compares existing state with new changes proposed before applying
 
-added a tag to an existing resource group
+Eg. added a tag to an existing resource group
 
 
 ![](../screenshots/screenshot-4.png)
 
 ### 3. Review updated state
 
-terraform state list -> gives list of all resources managed in this workspace
+- terraform state list -> gives list of all resources managed in this workspace
 
-terraform show -> shows all properties tracked for a particular resource group
+- terraform show -> shows all properties tracked for a particular resource group
 
 
 ![](../screenshots/screenshot-5.png)
